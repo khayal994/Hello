@@ -1,26 +1,29 @@
-h1{
+h1 {
     color: aliceblue;
     text-align: center;
 }
-.tayip{
-            float: left;
-            background-image: url(TAYYİP.jpg);
-            height: 200px;
-            width: 200px;
-            background-size: cover;
-            margin: auto;
-            position: relative;
-            display: inline-block;
-            border-radius: 40px;
-    
+
+.tayip {
+    float: left;
+    background-image: url(TAYYİP.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    display: block;
+    border-radius: 40px;
 }
-body{
+
+body {
     background-color: rgb(12, 12, 12);
 }
-.s{
+
+.s {
     color: aliceblue;
 }
-.kemal{
+
+.kemal {
     background-image: url(np_file_222031.jpeg);
     width: 200px;
     height: 200px;
@@ -28,10 +31,11 @@ body{
     background-size: cover;
     float: right;
     border-radius: 40px;
-    display: inline-block;
+    display: block;
     position: relative;
 }
-.sinan{
+
+.sinan {
     background-image: url(sinan-ogan.webp);
     width: 200px;
     height: 200px;
@@ -39,4 +43,24 @@ body{
     background-size: cover;
     float: left;
     border-radius: 40px;
+}
+
+.s16 {
+
+    background-color: aliceblue;
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+    bottom: 0;
+    text-align: center;
+    opacity: 100%;
+}
+.kutu1{
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+    top: 0;
+    text-align: center;
+    background-color: aliceblue;
+    z-index: 2;
 }
