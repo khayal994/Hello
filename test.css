@@ -1,0 +1,42 @@
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+.tayip{
+            float: left;
+            background-image: url(TAYYİP.jpg);
+            height: 200px;
+            width: 200px;
+            background-size: cover;
+            margin: auto;
+            position: relative;
+            display: inline-block;
+            border-radius: 40px;
+    
+}
+body{
+    background-color: rgb(12, 12, 12);
+}
+.s{
+    color: aliceblue;
+}
+.kemal{
+    background-image: url(np_file_222031.jpeg);
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    float: right;
+    border-radius: 40px;
+    display: inline-block;
+    position: relative;
+}
+.sinan{
+    background-image: url(sinan-ogan.webp);
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    border-radius: 40px;
+}
